@@ -1,11 +1,10 @@
 package HomeworkDSday2;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class OddTime {
 	public static void main(String[] args) {
-		int[] array = { 1, 1, 2, 2, 3,1 };
+		int[] array = { 1, 1, 2, 2, 3, 1 };
 		System.out.println(findOddTimesAppearNum(array));
 	}
 
