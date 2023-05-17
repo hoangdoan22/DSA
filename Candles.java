@@ -14,11 +14,9 @@ public class Candles {
 	}
 
 	public static int birthdayCakeCandles(ArrayList<Integer> candles) {
-		int size = candles.size();
 		int tallest = candles.get(0);
 		int count = 1;
-
-		for (int i = 1; i < size; i++) {
+		for (int i = 1; i < candles.size(); i++) {
 			int height = candles.get(i);
 			if (height > tallest) {
 				tallest = height;
