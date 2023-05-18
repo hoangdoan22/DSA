@@ -12,7 +12,7 @@ public class Factor {
 			int n = sc.nextInt();
 			System.out.println("input k : ");
 			int k = sc.nextInt();
-			System.out.println(k + " factor is : " + kthFactor(n, k));
+			System.out.println("Output : " + kthFactor(n, k));
 		}
 	}
 
